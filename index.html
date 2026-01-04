@@ -5,48 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Joël Mukanya</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Animation d'ouverture WOW -->
+  <!-- Loader d'ouverture -->
   <div class="loader">
     <h1>Joël Mukanya 🖤</h1>
   </div>
 
+  <!-- Header -->
   <header>
     <h1>Joël Mukanya 🖤</h1>
     <p>Analyste Concepteur | Développeur Full-Stack | IA & Sécurité Quantique | Entrepreneur</p>
   </header>
 
+  <!-- Navigation -->
   <nav>
     <ul>
       <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
       <li><a href="#projects">Projets</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
+  <!-- À propos -->
   <section id="about" class="section-animate">
     <h2>À propos de moi</h2>
-    <p>Je crée des solutions digitales innovantes : applications mobiles, dashboards web, systèmes IA et sécurité quantique. Mon objectif est de transformer des idées en projets concrets à impact réel.</p>
+    <p>Je suis Joël Mukanya, passionné par la technologie et l'innovation. Je transforme des idées complexes en solutions digitales concrètes : applications mobiles, dashboards web, systèmes IA et sécurité quantique. Mon objectif : créer un impact réel et tangible à travers mes projets.</p>
   </section>
 
+  <!-- Compétences -->
+  <section id="skills" class="section-animate">
+    <h2>Compétences clés</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h3>Développement Web & Mobile</h3>
+        <p>React, Node.js, Express, MongoDB, WordPress</p>
+      </div>
+      <div class="skill">
+        <h3>IA & Sécurité Quantique</h3>
+        <p>Machine Learning, Cryptographie avancée, Protection des données sensibles</p>
+      </div>
+      <div class="skill">
+        <h3>Gestion de projets</h3>
+        <p>Conception de systèmes, MVP rapide, productivité et planification stratégique</p>
+      </div>
+      <div class="skill">
+        <h3>Design & UX</h3>
+        <p>UI/UX moderne, expérience utilisateur fluide et attractive</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
   <section id="projects" class="section-animate">
-    <h2>Mes Projets</h2>
-    <div class="project">
-      <h3>Kima Traffic (Service livraison)</h3>
-      <p>MVP en développement : application mobile + dashboard web pour gestion de trafic et livraisons à Kinshasa.</p>
-    </div>
-    <div class="project">
-      <h3>Application Mobile MVP</h3>
-      <p>Prototype fonctionnel connecté à un backend WordPress temporaire avec gestion produits et stock.</p>
-    </div>
-    <div class="project">
-      <h3>Système IA & Sécurité Quantique</h3>
-      <p>Projet personnel pour sécuriser et automatiser des données sensibles via IA et cryptographie avancée.</p>
+    <h2>Projets phares</h2>
+    <div class="projects-grid">
+
+      <div class="project">
+        <h3>Kima Traffic (Service Livraison)</h3>
+        <p>MVP en développement pour une solution urbaine innovante à Kinshasa : gestion de trafic et livraisons rapides avec dashboard web et application mobile connectée.</p>
+        <span class="tag">Node.js | React | MongoDB</span>
+      </div>
+
+      <div class="project">
+        <h3>Application Mobile MVP</h3>
+        <p>Prototype fonctionnel connecté à un backend WordPress temporaire. Gestion complète produits, stock et opérations. Objectif : démontrer la preuve de concept avant déploiement backend complet.</p>
+        <span class="tag">React Native | WordPress</span>
+      </div>
+
+      <div class="project">
+        <h3>Système IA & Sécurité Quantique</h3>
+        <p>Automatisation et sécurisation avancée des données sensibles grâce à l’IA et à la cryptographie quantique. Projet personnel visant la protection maximale et la génération de valeur via technologies futuristes.</p>
+        <span class="tag">Python | IA | Cryptographie</span>
+      </div>
+
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact" class="section-animate">
     <h2>Contact</h2>
     <ul>
@@ -56,6 +95,7 @@
     </ul>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2026 Joël Mukanya — Tous droits réservés 🖤</p>
   </footer>
